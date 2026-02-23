@@ -63,19 +63,28 @@ The BMI category
 A relatable image matching your result
 
 ## 📂 Project Structure
-      Code
-      BMI-Calculator/
-      │── src/
-      │   ├── components/
-      │   │   ├── BmiForm.js
-      │   │   ├── BmiResult.js
-      │   │   └── BmiImage.js
-      │   ├── App.js
-      │   ├── index.js
-      │   └── styles.css
+      calc/
+      │── node_modules/
       │── public/
+      │   ├── normal.jpg
+      │   ├── obesity.jpg
+      │   ├── overweight.jpg
+      │   └── underweight.jpg
+      │── src/
+      │   ├── assets/
+      │   ├── App.css
+      │   ├── App.jsx
+      │   ├── Bmicalc.jsx
+      │   ├── index.css
+      │   └── main.jsx
+      │── .gitignore
+      │── eslint.config.js
+      │── index.html
+      │── package-lock.json
       │── package.json
       │── README.md
+      │── vite.config.js
+
 
       
 ## 📊 BMI Categories
